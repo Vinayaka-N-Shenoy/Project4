@@ -385,7 +385,7 @@ body{
     }
 }
 
-@media (max-width: 766px){
+@media (max-width: 566px){
     .background1{
         padding:50px 20px 50px 20px;
         border-radius: 10px;
@@ -397,5 +397,10 @@ body{
     
     .contactbg{
         border-radius:10px ;
+    }
+
+    #carousel{
+        width: 300px;
+        padding: 20px;
     }
 }
