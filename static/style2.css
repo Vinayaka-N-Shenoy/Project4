@@ -224,3 +224,25 @@ table a:hover{
         height: 20px;
     }
 }
+
+.qp{
+    display: -ms-flexbox;
+    text-align: center;
+    width: 100%;
+}
+
+.mp{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.mpsec{
+    padding-top: 80px;
+    background-color: #051622;
+    display: inline-block;
+    width: 170px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
