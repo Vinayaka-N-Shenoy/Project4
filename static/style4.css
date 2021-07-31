@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3703d;
+}
+
+.background{
+    height: 100%;
+}
+
+.bgs{
+    height: 100%;
+}
+
+/* Nav section */
+
+.navbar{
+    background-color: #051622;
+}
+.navbar-brand, .nav-link{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+    background: rgb(163, 163, 163);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.dropdown-menu{
+    background-color: #f5895e;
+    border-radius: 5px;
+}
+
+.dropdown-item{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* Carousel*/
+.snpbg{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.carousel2 {
+  display: inline-block;
+  padding: 40px;
+  width: 45%;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.carousel-cell {
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    background: #051622;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    box-shadow: 15px 5px 20px rgb(0, 0, 0);
+}
+
+
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    color: #DEB992;
+}
+
+.sn-blog1, .sn-blog2{
+    background-color: #fff;
+    margin: 0px 25px 25px 25px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.list{
+    text-align:left;
+    font-size: 20px;
+}
+
+.b1, .b2{
+    width: 800px;
+    display: inline-block;
+}
+
+.b2{
+    display: inline-block;
+}
+#comp{
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+#link{
+    width: 400px;
+    display: inline-block;
+}
+
+.flickity-page-dots{
+    display: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#1d2228d2,#585858);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+@media (max-width: 776px){
+    table{
+        width: 500px;
+    }
+
+    .table-head{
+        font-size: 30px;
+    }
+
+    #notes{
+        font-size: 30px;
+    }
+    .carousel1, .carousel2{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 566px){
+    table{
+        width: 80%;
+    }
+    th{
+        font-size: 15px;
+    }
+    td{
+        font-size: 15px;
+    }
+
+    #notes{
+        font-size: 30px;
+    }
+    .carousel1, .carousel2{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+    .flickity-button{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+#linkedin{
+    color: rgb(0,119,181);
+}
+
+.heading{
+    color: brown;
+}

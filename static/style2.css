@@ -246,26 +246,3 @@ table a:hover{
     margin: 10px;
     border-radius: 5px;
 }
-
-/* Snippets page */
-
-.background-snippet{
-    background-color: #f3703d;
-    text-align: center;
-    height: 100%;
-}
-
-#g1 ,#g2 , #g3 {
-    margin-top: 80px;
-    width: 400px;
-    height: 400px;
-    padding-top: 0px;
-    box-shadow: 15px 5px 20px rgb(0, 0, 0);
-    border-radius: 10px;
-}
-
-#sn1 .carousel-cell .img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
